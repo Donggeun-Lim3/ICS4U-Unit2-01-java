@@ -69,7 +69,8 @@ final class ReverseString {
             ).readLine();
 
             reversedString = reverse(inputString);
-            System.out.println(reversedString);
+            System.out.println("The reversed string (using recursion) is "
+                               + reversedString);
 
             System.out.println("\nDone.");
         }
